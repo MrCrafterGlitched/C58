@@ -1,15 +1,14 @@
 body {
     margin: 0;
-    padding-top: 800px
+    padding-top: 800px;
+        text-align: center;
 }
-
 .Founder {
     width: 400px;
     height: 300px;
     border-radius: 50%;
     margin-bottom: 50px;
 }
-
 #Welcome {
     position: absolute;
     overflow: hidden;
@@ -24,31 +23,26 @@ body {
     display: table;
     z-index: 30;
 }
-
 .Welcome_Div {
     position: relative;
     display: table-cell;
     vertical-align: middle;
     text-align: center
 }
-
 h1 {
     font-size: 20px;
     font-family: 'Reggae One', cursive;
 }
-
 #Name {
     font-size: 25px;
     color: chocolate;
     font-style: italic;
     line-height: 2;
 }
-
 h2 {
     font-family: 'Crimson Text', serif;
     line-height: 2;
 }
-
 #Bio{
     padding: 50px;
     text-align: center;
@@ -66,7 +60,7 @@ p{
 }
 .Menu{
     list-style: none;
-    position: absolute;
+    position: fixed;
     top: 10px;
     right: 30px;
     cursor: pointer;
@@ -81,4 +75,14 @@ p{
 .Links:hover{
     background-color: darksalmon;
     
+}
+html{
+    scroll-behavior: smooth;
+}
+.Article{
+    font-size: 25px;
+    text-decoration: underline;    
+}
+.Article:hover{
+    color: darkgoldenrod;
 }
